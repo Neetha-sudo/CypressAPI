@@ -54,7 +54,7 @@ it('Login in to the bank', ()=>{
     // expect(this.valueVariable).to.contains('Log In');
     cy.get('a[href*="lookup.htm"]').click();
     cy.get('#firstName').type('Neetha');
-    cy.get('#lastName').type('Shiv');
+    cy.get('#lastName').type('Shivanna');
     cy.get('#address\\.street').type('26 ropery road');
     cy.get('#address\\.city').type('Newcastle');
     cy.get('#address\\.state').type('Northumberland');
